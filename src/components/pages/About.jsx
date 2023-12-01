@@ -6,8 +6,8 @@ export default function About() {
                 <img src="/public/images/profile.jpg" alt="Ezekiel-Jamolin-Photo"/>
                 <div className="text-container">
                 <div className="text">
-                <h1>Hi I'm Ezekiel Jamolin,</h1>
-                <h2>I am 18 and I am a student at the UC Berkeley Extension Full Stack Coding Bootcamp. I am working hard to pursue a rewarding career in the tech industry.</h2>
+                <h1>Ezekiel Jamolin,</h1>
+                <h2>Recent UC Berkeley Extension Full Stack Coding Bootcamp alumni passionate about pursuing a rewarding career in the tech industry. High school graduate with a strong commitment to continuous learning and growth.</h2>
                 </div>
             </div>
             </div>
