@@ -1,9 +1,8 @@
 :root {
-    --back:#f2e5de;
-    --main:  bisque;
+    --back: #FCEEE1;
+    --main:  #F8DBC3;
     --accent:#EC7345;
     --text: #EC7345;
-    --hover: crimson;
 }
 
 * {
@@ -65,7 +64,7 @@ header nav li {
     margin: 10px;
     width: 95%;
     margin-top: 10%;
-    background-color: bisque;
+    background-color: var(--main);
     text-align: center;
     border-radius: 10px;
     display: flex;
@@ -77,7 +76,6 @@ header nav li {
     margin: 35px;
     width: 20%;
     border-radius: 50%;
-    border: var(--text) 2px solid;
     box-shadow: 5px 5px 10px var(--accent);
 }
 
@@ -158,6 +156,7 @@ main h2 {
     bottom: 3%;
     left: 4%;
     text-align: center;
+    opacity: 0.4;
 }
 
 .card0 p {
@@ -175,7 +174,7 @@ main h2 {
     margin: 10px;
     width: 95%;
     margin-top: 10%;
-    background-color: bisque;
+    background-color: var(--main);
     text-align: center;
     border-radius: 10px;
 }
@@ -208,18 +207,13 @@ footer img {
 
 #logo:hover {
     opacity: 1;
-    box-shadow: 0 0 10px 5px var(--accent);
+    /* box-shadow: 0 0 10px 5px var(--accent);
     filter: contrast(120%);
-    border-radius: 30px;
+    border-radius: 30px; */
 }
 
 footer img:hover {
     opacity: 1;
-}
-
-
-a:hover {
-    color: var(--hover);
 }
 
 

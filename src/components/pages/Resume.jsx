@@ -1,8 +1,9 @@
 export default function Resume() {
+const pdfUrl = '/public/resume.pdf';
     return (
       <div>
         <section className="resume">
-            <h2>Resume</h2>
+        <a href={pdfUrl} download="your_resume.pdf">Download Resume</a>
         </section>
       </div>
     );
