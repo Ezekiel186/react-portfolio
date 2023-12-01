@@ -1,0 +1,314 @@
+:root {
+    --back:#f2e5de;
+    --main:  #8d540a;
+    --accent:#EC7345;
+    --text: #EC7345;
+    --hover: crimson;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: monospace;
+    font-weight: bold;
+    background-color: var(--back);
+    color: var(--text);
+}
+
+header {
+    padding: 15px;
+    background-color: var(--main);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    font-size: 150%;
+    display: inline-flex;
+    float: right;
+}
+
+header nav li {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 16px;
+}
+
+/* shadows */
+.me, .project-container, footer {
+    box-shadow: 5px 5px 10px var(--accent);
+}
+
+
+/* me section */
+
+.me-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me {
+    margin: 10px;
+    width: 80%;
+    margin-top: 10%;
+    background-color: #39827E;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.me img {
+    display: block;
+    margin: 35px;
+    width: 20%;
+    border-radius: 50%;
+    border: var(--text) 5px solid;
+}
+
+.text-container {
+    width: 80%;
+    margin: 10px;
+}
+
+.text {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* links styling */
+
+a {
+    text-decoration: none;
+    color: var(--accent);
+  }
+
+#Project:hover {
+    scale: 1.1;
+    border-radius: 10px;
+    transform: rotate(5deg);
+    transition: transform 1s ease;
+}
+
+#Project-1:hover {
+    scale: 1.03;
+}
+
+a:hover {
+    color: var(--hover);
+}
+
+/* project section */
+
+main h1 {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 20%;
+
+}
+
+img {
+    border-radius: 10px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 200%;
+    padding-bottom: 20%;
+}
+
+.project-container {
+    background-color: var(--main);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Project-1 {
+    font-size: 150%;
+    display: block;
+    margin: 5px;
+    text-align: center;
+    width: 80%;
+    flex-grow: 1;
+}
+
+#Project-1 img {
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#Project {
+    font-size: 150%;
+    display: block;
+    margin-top: 10px;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+}
+
+.card {
+    margin: 0;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 0;
+}
+
+#Project img {
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#Project p, #Project-1 p {
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+/* contact info */
+
+footer {
+    background-color: var(--main);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container {
+    padding: 20px;
+    background-color: bisque;
+    width: 80%;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+footer ul {
+    font-size: 16px;
+    list-style: none;
+}
+
+footer a {
+    color: var(--accent);
+}
+
+/* media queries */
+
+@media (max-width: 1200px) {
+
+    header nav li {
+        display: inline-block;
+        margin: 0px;
+        margin-top: 8px;
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header nav ul li {
+        margin-right: 15px;
+    }
+
+    .me img {
+        width: 25%;
+        margin-left: 30px;
+    }
+
+    .text {
+        font-size: 80%;
+        margin-right: 30px;
+    }
+
+    .project-container {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    .contact-container {
+        padding: 15px;
+    }
+
+    footer a{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header nav li {
+        display: inline-block;
+        margin: 0px;
+        margin-top: 0;
+        font-size: 15px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header nav ul li {
+        margin-right: 5px;
+    }
+
+    .me img {
+        margin-left: 20px;
+    }
+
+    .text {
+        font-size: 50%;
+        margin-right: 20px;
+    }
+
+    .project-container {
+        font-size: 8px;
+    }
+
+    footer {
+        font-size: 8px;
+        padding: 10px;
+    }
+
+    .contact-container {
+        padding: 5px;
+    }
+
+    footer a{
+        font-size: 11px;
+    }
+}
