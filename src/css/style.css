@@ -46,7 +46,7 @@ header nav li {
 }
 
 /* shadows */
-.me, .project-container, footer {
+.me, .project-container {
     box-shadow: 5px 5px 10px var(--accent);
 }
 
@@ -172,10 +172,6 @@ main h2 {
 /* contact info */
 
 footer {
-    background-color: var(--main);
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
     margin: 0 auto;
     margin-top: 10%;
     display: flex;
@@ -193,6 +189,10 @@ footer img {
 
 #Project:hover {
     filter: brightness(100%);
+}
+
+.card0:hover p {
+    opacity: 0;
 }
 
 #logo:hover {
