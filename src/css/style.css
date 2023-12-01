@@ -132,6 +132,7 @@ main h2 {
     height: 100%;
     text-align: center;
     transition: filter 0.5s ease-in-out;
+    filter: brightness(20%);
 }
 
 .card0 {
@@ -160,14 +161,25 @@ main h2 {
     opacity: 0.2;
 }
 
+.card0 p {
+    font-size: 200%;
+    position: absolute;
+    margin: 0;
+    margin-top: 20%;
+    text-align: center;
+}
+
 /* links styling */
 
 #Project:hover {
-    filter: brightness(70%);
+    filter: brightness(100%);
 }
 
 #logo:hover {
     opacity: 1;
+    box-shadow: 0 0 10px 5px var(--accent);
+    filter: contrast(120%);
+    border-radius: 31px;
 }
 
 a:hover {
