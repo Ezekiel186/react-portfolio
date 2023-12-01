@@ -45,7 +45,7 @@ header nav li {
 }
 
 /* shadows */
-.me, .project-container, .resume {
+.me, .project-container, .resume, .contact {
     box-shadow: 5px 5px 10px var(--accent);
 }
 
@@ -187,6 +187,43 @@ main h2 {
     font-size: 20px;
 }
 
+/* contact */
+.contact {
+    background-color: var(--main);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 5px;
+}
+  
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 4px;
+}
+  
+.submit-btn {
+    padding: 10px;
+    background-color: var(--accent);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    /* box-shadow: 5px 5px 10px var(--accent); */
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
 /* footer */
 
 footer {
@@ -217,9 +254,6 @@ footer img {
 
 #logo:hover {
     opacity: 1;
-    /* box-shadow: 0 0 10px 5px var(--accent);
-    filter: contrast(120%);
-    border-radius: 30px; */
 }
 
 footer img:hover {
