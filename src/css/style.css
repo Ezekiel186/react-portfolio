@@ -111,7 +111,7 @@ main h2 {
     background-color: var(--main);
     padding: 20px;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 20px;
     display: flex;
@@ -125,9 +125,9 @@ main h2 {
 #Project {
     font-size: 150%;
     display: block;
-    margin-top: 10px;
+    margin: 10px;
     width: 95%;
-    height: 100%;
+    height: 300px;
     text-align: center;
     transition: filter 0.5s ease-in-out;
     filter: brightness(20%);
@@ -136,6 +136,8 @@ main h2 {
 .card0 {
     margin: 0;
     width: 50%;
+    height: 25%;
+    margin: 5px 0;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -145,7 +147,7 @@ main h2 {
 }
 
 #Project img {
-    margin-left: 0%;
+    object-fit: cover;
     width: 100%;
     height: 100%;
 }
