@@ -46,7 +46,7 @@ header nav li {
 }
 
 /* shadows */
-.me, .project-container {
+.me, .project-container, .resume {
     box-shadow: 5px 5px 10px var(--accent);
 }
 
@@ -169,7 +169,18 @@ main h2 {
     pointer-events: none;
 }
 
-/* contact info */
+/* resume */
+
+.resume {
+    margin: 10px;
+    width: 95%;
+    margin-top: 10%;
+    background-color: bisque;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* footer */
 
 footer {
     margin: 0 auto;
@@ -187,7 +198,7 @@ footer img {
 
 /* links styling */
 
-#Project:hover {
+.card0:hover #Project {
     filter: brightness(100%);
 }
 
@@ -199,7 +210,7 @@ footer img {
     opacity: 1;
     box-shadow: 0 0 10px 5px var(--accent);
     filter: contrast(120%);
-    border-radius: 31px;
+    border-radius: 30px;
 }
 
 footer img:hover {

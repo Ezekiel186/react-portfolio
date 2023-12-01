@@ -1,7 +1,9 @@
 export default function Resume() {
     return (
       <div>
-        <h1>Resume</h1>
+        <section className="resume">
+            <h2>Resume</h2>
+        </section>
       </div>
     );
   }
