@@ -1,6 +1,6 @@
 :root {
     --back:#f2e5de;
-    --main:  #8d540a;
+    --main:  bisque;
     --accent:#EC7345;
     --text: #EC7345;
     --hover: crimson;
@@ -12,15 +12,15 @@
     margin: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body {
+.container {
     font-family: monospace;
     font-weight: bold;
     background-color: var(--back);
     color: var(--text);
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 header {
@@ -54,7 +54,7 @@ header nav li {
 /* me section */
 
 .me-container {
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -63,9 +63,9 @@ header nav li {
 
 .me {
     margin: 10px;
-    width: 80%;
-    margin-top: 10%;
-    background-color: #39827E;
+    width: 95%;
+    margin-top: 15%;
+    background-color: bisque;
     text-align: center;
     border-radius: 10px;
     display: flex;
@@ -100,8 +100,7 @@ a {
 #Project:hover {
     scale: 1.1;
     border-radius: 10px;
-    transform: rotate(5deg);
-    transition: transform 1s ease;
+    scale: 1.03;
 }
 
 #Project-1:hover {
@@ -169,7 +168,7 @@ main h2 {
     text-align: center;
 }
 
-.card {
+.card0 {
     margin: 0;
     width: 25%;
     display: flex;
