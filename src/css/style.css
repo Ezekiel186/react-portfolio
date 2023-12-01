@@ -64,7 +64,7 @@ header nav li {
 .me {
     margin: 10px;
     width: 95%;
-    margin-top: 15%;
+    margin-top: 10%;
     background-color: bisque;
     text-align: center;
     border-radius: 10px;
@@ -158,7 +158,6 @@ main h2 {
     bottom: 3%;
     left: 4%;
     text-align: center;
-    opacity: 0.2;
 }
 
 .card0 p {
@@ -167,6 +166,27 @@ main h2 {
     margin: 0;
     margin-top: 20%;
     text-align: center;
+    pointer-events: none;
+}
+
+/* contact info */
+
+footer {
+    background-color: var(--main);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 70px;
+    margin: 10px;
+    opacity: 0.4;
 }
 
 /* links styling */
@@ -182,42 +202,15 @@ main h2 {
     border-radius: 31px;
 }
 
+footer img:hover {
+    opacity: 1;
+}
+
+
 a:hover {
     color: var(--hover);
 }
 
-/* contact info */
-
-footer {
-    background-color: var(--main);
-    padding: 20px;
-    border-radius: 10px;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-container {
-    padding: 20px;
-    background-color: bisque;
-    width: 80%;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-}
-
-footer ul {
-    font-size: 16px;
-    list-style: none;
-}
-
-footer a {
-    color: var(--accent);
-}
 
 /* media queries */
 
