@@ -77,7 +77,8 @@ header nav li {
     margin: 35px;
     width: 20%;
     border-radius: 50%;
-    border: var(--text) 5px solid;
+    border: var(--text) 2px solid;
+    box-shadow: 5px 5px 10px var(--accent);
 }
 
 .text-container {
@@ -90,34 +91,12 @@ header nav li {
     margin: 0 auto;
 }
 
-/* links styling */
-
-a {
-    text-decoration: none;
-    color: var(--accent);
-  }
-
-#Project:hover {
-    scale: 1.1;
-    border-radius: 10px;
-    scale: 1.03;
-}
-
-#Project-1:hover {
-    scale: 1.03;
-}
-
-a:hover {
-    color: var(--hover);
-}
-
 /* project section */
 
 main h1 {
     font-size: 300%;
     text-align: center;
     padding-top: 20%;
-
 }
 
 img {
@@ -142,21 +121,7 @@ main h2 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-}
-
-#Project-1 {
-    font-size: 150%;
-    display: block;
-    margin: 5px;
-    text-align: center;
-    width: 80%;
-    flex-grow: 1;
-}
-
-#Project-1 img {
-    margin-left: 0%;
-    width: 100%;
-    height: 100%;
+    margin-top: 5%;
 }
 
 #Project {
@@ -166,15 +131,18 @@ main h2 {
     width: 95%;
     height: 100%;
     text-align: center;
+    transition: filter 0.5s ease-in-out;
 }
 
 .card0 {
     margin: 0;
-    width: 25%;
+    width: 50%;
     display: flex;
     justify-content: center;
     text-align: center;
     flex-grow: 0;
+    position: relative;
+
 }
 
 #Project img {
@@ -183,9 +151,27 @@ main h2 {
     height: 100%;
 }
 
-#Project p, #Project-1 p {
-    background-color: bisque;
-    border-radius: 10px;
+.card0 #logo {
+    height: 25%;
+    position: absolute;
+    bottom: 3%;
+    left: 4%;
+    text-align: center;
+    opacity: 0.2;
+}
+
+/* links styling */
+
+#Project:hover {
+    filter: brightness(70%);
+}
+
+#logo:hover {
+    opacity: 1;
+}
+
+a:hover {
+    color: var(--hover);
 }
 
 /* contact info */

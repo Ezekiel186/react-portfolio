@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <div className="container">
+      <div>
         <section className="me-container">
         <div className="me">
                 <img src="/public/images/profile.jpg" alt="Ezekiel-Jamolin-Photo"/>
