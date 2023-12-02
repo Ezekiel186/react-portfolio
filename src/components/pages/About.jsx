@@ -3,7 +3,7 @@ export default function About() {
       <div>
         <section className="me-container">
         <div className="me">
-                <img src="../../../public/images/profile.jpg" alt="Ezekiel-Jamolin-Photo"/>
+                <img src="./public/images/profile.jpg" alt="Ezekiel-Jamolin-Photo"/>
                 <div className="text-container">
                 <div className="text">
                 <h1>Ezekiel Jamolin,</h1>
