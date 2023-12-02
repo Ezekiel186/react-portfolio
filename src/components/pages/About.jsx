@@ -1,9 +1,11 @@
+import pic1 from '../../../public/images/profile.jpg'
+
 export default function About() {
     return (
       <div>
         <section className="me-container">
         <div className="me">
-                <img src="./public/images/profile.jpg" alt="Ezekiel-Jamolin-Photo"/>
+                <img src={pic1} alt="Ezekiel-Jamolin-Photo"/>
                 <div className="text-container">
                 <div className="text">
                 <h1>Ezekiel Jamolin,</h1>
