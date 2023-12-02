@@ -1,10 +1,12 @@
+import pic1 from '../../../public/images/pick4me.png'
+
 export default function Portfolio() {
     return (
       <div>
          <section class="project-container">
             <div class="card0">
             <article id="Project">
-                <a href="https://jacastro619.github.io/Pick4Me/?"> <img src="./public/images/pick4me.png" alt="pick4me-home-page"/></a>
+                <a href="https://jacastro619.github.io/Pick4Me/?"> <img src={pic1} alt="pick4me-home-page"/></a>
             </article>
             <a href="https://github.com/Jacastro619/Pick4Me"><img id="logo" src="./public/images/github.png" alt="github-logo" /></a>
             <p>Pick4Me</p>
