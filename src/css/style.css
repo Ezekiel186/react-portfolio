@@ -161,6 +161,11 @@ main h2 {
     opacity: 0.4;
 }
 
+.card0 #logo:hover {
+    transform: translateY(-10px);
+    background-color: white;
+}
+
 .card0 p {
     font-size: 200%;
     position: absolute;
@@ -234,6 +239,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 footer img {
@@ -258,6 +264,16 @@ footer img {
 
 footer img:hover {
     opacity: 1;
+}
+
+/* nav bar */
+a.nav-link {
+    color: var(--text);
+}
+
+a.nav-link:hover {
+    transform: scale(1.2);
+    border: 0;
 }
 
 

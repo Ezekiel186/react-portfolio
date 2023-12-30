@@ -4,7 +4,7 @@ import pic3 from '../../../public/images/majority-matters.png'
 import pic4 from '../../../public/images/weather-api.png'
 import pic5 from '../../../public/images/portfolio.png'
 import pic6 from '../../../public/images/code-quiz.png'
-import pic6 from '../../../public/images/cipher-synergy.png'
+import pic7 from '../../../public/images/cipher-synergy.png'
 
 
 export default function Portfolio() {
@@ -30,7 +30,7 @@ export default function Portfolio() {
                 <a href="https://ezekiel186.github.io/Cipher-Synergy/"><img src={pic7} alt="cipher-synergy-room-1"/></a>
             </article>
             <a href="https://github.com/Ezekiel186/Cipher-Synergy"><img id="logo" src={pic2} alt="github-logo" /></a>
-            <p>Project 3</p>
+            <p>Cipher Synergy</p>
         </div>
         <div class="card0">
             <article id="Project">
@@ -44,7 +44,7 @@ export default function Portfolio() {
                 <a href="https://ezekiel186.github.io/portfolio/"><img src={pic5} alt="portfolio-website"/></a>
             </article>
             <a href="https://github.com/Ezekiel186/portfolio"><img id="logo" src={pic2} alt="github-logo" /></a>
-            <p>Portfolio</p>
+            <p>Original Portfolio</p>
         </div>
         <div class="card0">
             <article id="Project">
